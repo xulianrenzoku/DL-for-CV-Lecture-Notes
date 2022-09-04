@@ -104,13 +104,13 @@ Why explode in 2012? JJ’s take:
 - Computation
     - Development of GPU
 
-** Course overview and logistics **
+**Course overview and logistics**
 - 6 programming assignments
     - Python
     - PyTorch
     - Google Colab
 
-Course Philosophy
+**Course Philosophy**
 - Thorough and Detailed
     - Understand how to write from scratch, debug, and train convolutional and other types of deep neural networks
     - We prefer to write from scratch, rather than rely on existing implementations
@@ -120,7 +120,7 @@ Course Philosophy
 - Will also cover some fun topics
     - Image captioning (with RNNs)
 
-Course Structure
+**Course Structure**
 - First half: Fundamentals
     - Details of how to implement and train different types of networks
     - Fully-connected networks, convolutional networks, recurrent networks
