@@ -1,6 +1,6 @@
-Michigan Online
-Deep Learning for Computer Vision
-Instructor: Justin Johnson
+Michigan Online  
+Deep Learning for Computer Vision  
+Instructor: Justin Johnson  
 
 Lecture 1: Introduction to Deep Learning for Computer Vision
 
