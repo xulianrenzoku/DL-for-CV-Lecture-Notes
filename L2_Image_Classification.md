@@ -89,6 +89,7 @@ Lecture 2: Image Classification
         - Decision Boundaries (Slide 2-55)
             - Problem: Outlier 
             - Problem: Rough decision boundaries
+    <img src='static/2-55.png' width='600'> 
 - K-Nearest Neighbors
     - Instead of copying label from nearest neighbor, take majority vote from K closest points
     - Use more neighbors helps smooth out rough decision boundaries
