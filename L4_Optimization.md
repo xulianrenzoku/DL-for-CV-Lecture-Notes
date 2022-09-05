@@ -154,7 +154,7 @@ Lecture 4: Optimization
 - So far: **First-Order** Optimization
     1. Use gradient to make linear approximation
     2. Step to minimize approximation
-- *Second-Order** Optimization
+- **Second-Order** Optimization
     - Slide 4-76
     1. Use gradient and Hessian to make quadratic approximation
     2. Step to minimize the approximation
