@@ -24,8 +24,10 @@ Linear Classifiers
     - Linear Classifier: Bias Trick
         - Example: Slide 3-15
         - Less used in neural network
+        <img src='static/3-16.png' width='600'> 
     - Linear Classifier: Predictions are linear
         - Example with transparency: Slide 3-18
+        <img src='static/3-18.png' width='600'> 
 - Interpreting a Linear Classifier: Visual viewpoint
     - Reshape: Do not stretch pixels into column
     - **Linear classifier has one “template” per category**
