@@ -1,6 +1,6 @@
-Michigan Online
-Deep Learning for Computer Vision
-Instructor: Justin Johnson
+Michigan Online  
+Deep Learning for Computer Vision  
+Instructor: Justin Johnson  
 
 Lecture 3: Linear Classifiers
 
@@ -124,6 +124,7 @@ How can we actually choose W?
         - Cross Entropy
         - Maximize probability of correct class
         <img src='static/3-76.png' width='600'> 
+        
         - Question: What is the min/max possible loss L?
             - Min: 0
             - Max: infinity
