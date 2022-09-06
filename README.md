@@ -109,3 +109,36 @@
   - "local graident slice" approach
   - Weight matrices
     
+
+**Lecture 7: [Convolutional Networks](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L7_Convolutional_Networks.md)**  
+- Convolutional Network
+  - Ingredients of a Full-Connected Network
+    - Fully-Connected Layers
+    - Activation Function
+  - Need Three New Components to Build ConvNets
+    - Convolution Layers
+    - Pooling Layers
+    - Normalization
+- Convolutional Layer
+  - Components
+    - Input 
+    - Filter
+      - Convovle the filter with the image
+    - Activation map
+    - Non-linear activation function
+  - Problem: Feature maps "shrink" with each layer
+    - Padding: Add zeros around the input
+  - Problem:  For large images we need many layers for each output to “see” the whole image
+    - Stride: downsample inside the network
+- Pooling Layers
+  - Another way to downsample
+  - Max Pooling 
+    - Another non-linear function technically
+    - Why do we choose pooling over strides?
+- Normalization
+  - Batch Normalization
+  - Batch Normalization for ConvNets
+  - Structure: Usually inserted after Fully Connected or Convolutional layers, and before nonlinearity
+  - Properties
+    - Good: Easier, faster, more robust/regularization/zero overhead at test-time 
+    - Bad
