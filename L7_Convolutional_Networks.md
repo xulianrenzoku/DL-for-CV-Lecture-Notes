@@ -27,13 +27,14 @@ Lecture 7: Convolutional Networks
 
 **Three New Operations**  
 **Convolution Layers**
-- Fully-Connected Layer: Slide 7-11
+- Fully-Connected Layer: Slide 7-10
+<img src='static/7-10.png' width='600'> 
 - Convolution Layer: 
     - Slide 7-14
         - Input: 3D tensor
-            - 3*32*32 image: preserve spatial structure
+            - 3 * 32 * 32 image: preserve spatial structure
         - Weight matrix 
-            - 3*5*5 filter
+            - 3 * 5 * 5 filter
             - **Convolve** the filter with the image
             - i.e. “slide over the image spatially, computing dot products”
         - Filter always extend the full depth of the input volunme
@@ -41,23 +42,23 @@ Lecture 7: Convolutional Networks
     - Slide 7-15
         - Output: 1 number
             - The result of taking a dot product b/w the filter and a small 3*5*5 chunk of the image
-            - i.e. 3*5*5 = 75-dimensional dot product + bias
+            - i.e. 3 * 5 * 5 = 75-dimensional dot product + bias
         <img src='static/7-15.png' width='600'> 
     - Slide 7-16
         - Convolve (slide) over all spatial locations
         - Activation map
-            - 1*28*28
+            - 1 * 28 * 28
         <img src='static/7-16.png' width='600'> 
     - Slide 7-17
         - Consider repeating with a second (green) filter
         <img src='static/7-17.png' width='600'> 
     - Slide 7-18
         - Consider 6 filters
-            - Each 3*5*5
+            - Each 3 * 5 * 5
         - 6 activation maps
-            - Each 1*28*28
+            - Each 1 * 28 * 28
             - JJ: 32+1-5=28
-        - Stack activations to get a 6*28*28 output image!
+        - Stack activations to get a 6 * 28 * 28 output image!
         <img src='static/7-18.png' width='600'> 
     - Slide 7-19
         - Also 6-dim bias vector
@@ -85,9 +86,9 @@ Lecture 7: Convolutional Networks
 - A closer look at spatial dimensions
     - Slide 7-36
         - Example
-            - Input: 7*7
-            - Filter: 3*3
-            - Output: 5*5
+            - Input: 7 * 7
+            - Filter: 3 * 3
+            - Output: 5 * 5
         - In general
             - Input: W
             - Filter: K
@@ -127,11 +128,11 @@ Lecture 7: Convolutional Networks
 - **Strided** Convolution
     - Slide 7-43, 7-44, 7-46
     	- Example
-    		- Input: 7*7
-        	- Filter: 3*3
+    		- Input: 7 * 7
+        	- Filter: 3 * 3
         	- Stride: 2 
             		- Skip over 1
-        	- Output: 3*3
+        	- Output: 3 * 3
     	- In general: 
     		- Input: W
     		- Filter: K
