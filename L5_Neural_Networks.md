@@ -93,7 +93,7 @@ Lecture 5: Neural Networks
     <img src='static/5-48.png' width='600'> 
     <img src='static/5-49.png' width='600'> 
 
-**Good**
+**Good**  
 **Space Warping**
 - Slide 5-54, 5-56
     - Consider a linear transform: h = Wx
@@ -141,7 +141,7 @@ Lecture 5: Neural Networks
         - How much data we need to learn a function
     - Remember: kNN is also a universal approximator!
 
-**Bad**
+**Bad**  
 **How to optimize Neural Networks**
 - Convex Functions
     - Example: f(x) = x^2 is convex
