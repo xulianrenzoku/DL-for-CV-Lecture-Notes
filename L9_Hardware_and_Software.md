@@ -88,16 +88,16 @@ Lecture 9: Hardware and Software
         - Slide 9-48: To run on GPU, just use a different device!
         <img src='static/9-48.png' width='600'> 
     - Autograd
-        - Slide 9-49
+        - Slide 9-49: Creating Tensors with requires_grad=True enables autograd
         <img src='static/9-49.png' width='600'> 
         
         - Slide 9-50
         <img src='static/9-50.png' width='600'> 
         
-        - Slide 9-51
+        - Slide 9-51: Forward pass
         <img src='static/9-51.png' width='600'>
         
-        - Slide 9-52
+        - Slide 9-52: Backward pass
         <img src='static/9-52.png' width='600'>
         
         - Slide 9-53: mm
@@ -122,9 +122,10 @@ Lecture 9: Hardware and Software
         <img src='static/9-59.png' width='600'>
         
         - Slide 9-60 
+            - After backward finishes, gradients are **accumulated** into w1.grad and w2.grad and the graphs is destroyed 
         <img src='static/9-60.png' width='600'>
         
-        - Slide 9-61
+        - Slide 9-61: Make gradient step on weights
         <img src='static/9-61.png' width='600'>
         
         - Slide 9-62: Set gradients to zero - forgetting this is a common bug!
@@ -145,30 +146,32 @@ Lecture 9: Hardware and Software
         - In practice this is pretty rare - in most cases Python functions are good enough
     - nn Module
         - Slide 9-69
+            - Higher-level wrapper for working with neural nets
+            - Use this! It will make your life easier
         <img src='static/9-69.png' width='600'>
         
-        - Slide 9-70
+        - Slide 9-70: Object-orientd API
         <img src='static/9-70.png' width='600'>
         
-        - Slide 9-71
+        - Slide 9-71: Forward pass
         <img src='static/9-71.png' width='600'>
         
-        - Slide 9-72
+        - Slide 9-72: Loss functions
         <img src='static/9-72.png' width='600'>
         
-        - Slide 9-73
+        - Slide 9-73: Backward pass
         <img src='static/9-73.png' width='600'>
         
-        - Slide 9-74
+        - Slide 9-74: Make gradient step on each model parameter (w/ gradients disabled)
         <img src='static/9-74.png' width='600'>
     - optim Module
-        - Slide 9-75
+        - Slide 9-75: Use an **optimizer** for different update rules
         <img src='static/9-75.png' width='600'>
         
-        - Slide 9-76
+        - Slide 9-76: After computing gradients, use optimizer to update and zero gradients
         <img src='static/9-76.png' width='600'>
     - Define your own nn Module
-        - Slide 9-77
+        - Slide 9-77: Very common to define your own models or layers as custom Modules 
         <img src='static/9-77.png' width='600'>
         
         - Slide 9-78
@@ -178,21 +181,24 @@ Lecture 9: Hardware and Software
         <img src='static/9-79.png' width='600'>
         
         - Slide 9-80
+            - No need to define backward - autograd will handle it
         <img src='static/9-80.png' width='600'>
         
-        - Slide 9-81
+        - Slide 9-81: Very common to mix and match custom Module subclasses and Sequential containers
         <img src='static/9-81.png' width='600'>
         
         - Slide 9-82
-            - Not a practical example
+            - JJ: Not a practical example
         <img src='static/9-82.png' width='600'>
         
-        - Slide 9-83
+        - Slide 9-83: Very easy to quickly build complex network architectures
         <img src='static/9-83.png' width='600'>
     - DataLoaders
         - Slide 9-84
+            - A **DataLoader** wraps a **Dataset** and provides minibatching, shuffling, multithreading for you
+            - When you need to load custom data, jsut write your own Dataset class
         <img src='static/9-84.png' width='600'>
-    - Pretrained Models
+    - Pretrained Models: Super easy to use pretrained models with torchvision
         - Slide 9-87
         <img src='static/9-87.png' width='600'>
     - Dynamic Computation Graphs
