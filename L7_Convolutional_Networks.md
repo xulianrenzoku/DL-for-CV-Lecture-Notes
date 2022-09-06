@@ -29,6 +29,7 @@ Lecture 7: Convolutional Networks
 **Convolution Layers**
 - Fully-Connected Layer: Slide 7-10
 <img src='static/7-10.png' width='600'> 
+
 - Convolution Layer: 
     - Slide 7-14
         - Input: 3D tensor
