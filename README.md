@@ -210,7 +210,7 @@ Instructor: Justin Johnson
         - Debugging
         
 
-**Lecture 9: [Training Neural Networks I](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L10_Training_Neural_Networks_I.md)** 
+**Lecture 10: [Training Neural Networks I](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L10_Training_Neural_Networks_I.md)** 
 - Activation Functions
   - Sigmoid
   - Tanh
