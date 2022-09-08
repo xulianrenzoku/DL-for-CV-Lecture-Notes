@@ -146,3 +146,73 @@ Instructor: Justin Johnson
   - Properties
     - Good: Easier, faster, more robust/regularization/zero overhead at test-time 
     - Bad
+
+
+**Lecture 8: [CNN Architectures](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L8_CNN_Architectures.md)**  
+- AlexNet(2012)
+  - Architecture
+  - Interesting trends
+- ZFNet(2013): A Bigger AlexNet
+- VGG(2014): Deeper Networks, Regular Design
+  - Design rules
+- GoogLeNet(2014): Focus on Efficiency
+  - Aggresive Stem (downsample)
+  - Inception Module
+  - Gloabl Average Pooling
+  - Auxiliary Classifiers
+- ResNet(2015)
+  - Batch normalization allows researchers to go deep
+  - Architecture
+    - Residual Block
+    - Bottleneck Block 
+  - Takeaway
+    - Able to train very deep networks
+    - Deeper networks do better than shallow networks (as expected)
+    - Still widely used today
+- ResNeXt
+- Densely Connected Neural Networks
+- MobileNets: Tiny Networks (For Mobile Devices)
+  - Sacrifice accuracy for low computational cost
+- Neural Architecture Search
+  - Automate designing
+  - Can be used to find efficient CNN architectures
+  
+  
+**Lecture 9: [Hardware and Software](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main//L9_Hardware_and_Software.md)** 
+- Deep Learning Hardware
+  - Inside a computer
+    - CPU
+    - GPU
+  - Inside a GPU
+    - Tensor Core
+  - Programming GPUs
+    - CUDA (NVIDIA only)
+    - OpenCL (Runs on anything)
+  - Google Tensor Processing Units (TPU)
+    - Have to use TensorFlow
+- Deep Learning Software
+  - Mainstream Frameworks
+    - PyTorch
+    - TensorFlow
+  - The points of Deep Learning frameworks
+    - Allow rapid prototyping of new ideas
+    - Automatically compute gradients
+    - Run it all efficiently on GPU
+  - PyTorch
+    - Fundamental Concepts
+      - Tensor: Like a numpy array, but can run on GPU
+      - Autograd: Package for building computational graphs out of Tensors, and automatically computing gradients
+      - Module: A neural network layer; may store state or learnable weights
+    - Dynamic Computation Graphs
+      - Applications
+        - Recurrent Networks
+        - Recursive Networks
+        - Modular Networks
+    - Static Computation Graphs
+    - Static vs Dynamic Computation Graphs
+      - For Static
+        - Optimization
+        - Serialization
+      - For Dynamic
+        - Debugging
+        
