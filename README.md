@@ -180,9 +180,7 @@ Instructor: Justin Johnson
   
 **Lecture 9: [Hardware and Software](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main//L9_Hardware_and_Software.md)** 
 - Deep Learning Hardware
-  - Inside a computer
-    - CPU
-    - GPU
+  - Inside a computer: CPU & GPU
   - Inside a GPU
     - Tensor Core
   - Programming GPUs
@@ -191,9 +189,7 @@ Instructor: Justin Johnson
   - Google Tensor Processing Units (TPU)
     - Have to use TensorFlow
 - Deep Learning Software
-  - Mainstream Frameworks
-    - PyTorch
-    - TensorFlow
+  - Mainstream Frameworks: PyTorch & TensorFlow
   - The points of Deep Learning frameworks
     - Allow rapid prototyping of new ideas
     - Automatically compute gradients
@@ -204,10 +200,7 @@ Instructor: Justin Johnson
       - Autograd: Package for building computational graphs out of Tensors, and automatically computing gradients
       - Module: A neural network layer; may store state or learnable weights
     - Dynamic Computation Graphs
-      - Applications
-        - Recurrent Networks
-        - Recursive Networks
-        - Modular Networks
+      - Applications: Recurrent Networks/Recursive Networks/Modular Networks
     - Static Computation Graphs
     - Static vs Dynamic Computation Graphs
       - For Static
@@ -216,3 +209,38 @@ Instructor: Justin Johnson
       - For Dynamic
         - Debugging
         
+
+**Lecture 9: [Training Neural Networks I](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L10_Training_Neural_Networks_I.md)** 
+- Activation Functions
+  - Sigmoid
+  - Tanh
+  - ReLU
+  - Leaky ReLU
+  - Exponential Linear Unit (ELU)
+  - Scaled Exponential Linear Unit (SELU)
+  - Summary: Just use ReLU. Don't use sigmoid or tanh    
+- Data Preprocessing
+  - Types
+    - Zero-centering & Normalization
+    - PCA & Whitening
+  - Summary: Use Zero-centering & Normalization. Not common to do PCA or whitening
+- Weight Initialization
+  - Idea: Small random numbers
+    - Gaussian w/ zero mean, std=0.01
+    - Gaussian w/ zero mean, std=0.05
+    - Xavier Initialization
+      - Problem (w/ ReLU)
+    - Kaiming/MSRA Initialization
+    - Residual Networks
+- Regularization
+  - A common pattern:
+    - Training: Add some kind of randomness
+    - Testing: Average out randomness (sometimes approximate)
+  - Add term to the loss: L1/L2/Elastic Net(L1+L2)
+  - Dropout: How/Why/Problems
+  - Data Augmentation
+    - Types: Transform/Random Crops & Scales/Color Jitter
+  - Other ways to regularize
+  - Summary: 
+    - Batch normalization and data augmentation almost always a good idea
+    - Dropout not used quite much these days
