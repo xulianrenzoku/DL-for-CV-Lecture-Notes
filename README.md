@@ -1,4 +1,5 @@
 # DL-for-CV-Lecture-Notes
+University of Michigan
 
 **Lecture 1: [Intro](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L1_Intro.md)**  
 
