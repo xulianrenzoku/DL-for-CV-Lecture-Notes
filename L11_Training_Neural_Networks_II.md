@@ -123,14 +123,14 @@ Lecture 11: Training Neural Networks II
     - **Step 7**: GOTO step 5
 - Hyperparameters to play with
     - Network architecture
-    - Learning rate, tis decay schedule, update type
+    - Learning rate, its decay schedule, update type
     - Regularization (L2/Dropout strength)
     - JJ: You’re like a DJ
 - Track ratio of weight update / weight magnitude
     - Slide 11-44
     <img src='static/11-44.png' width='600'> 
 
-**After Training**
+**After Training**  
 **Model Ensembles**
 - Steps
     - 1. Train multiple independent models
