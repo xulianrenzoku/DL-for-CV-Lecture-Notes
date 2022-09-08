@@ -244,3 +244,48 @@ Instructor: Justin Johnson
   - Summary: 
     - Batch normalization and data augmentation almost always a good idea
     - Dropout not used quite much these days
+    
+    
+**Lecture 11: [Training Neural Networks II](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L11_Training_Neural_Networks_II.md)** 
+- Training Dynamics
+  - Learning Rate Schedules
+    - Types of Learning Rate Decay
+      - Step
+      - Cosine
+      - Linear
+      - Inverse Sqrt
+      - Constant 
+    - How long to train? Early Stopping
+  - Hyperparameter Optimization
+    - Choosing Hyperparameters
+      - with tons of GPUs
+        - Grid Search
+        - Random Search (works better)
+      - without tons of GPUs
+        - Step 1: Check initial loss
+        - Step 2: Overfit a small sample
+        - Step 3: Find LR that makes loss go down
+        - Step 4: Coarse grid, train for ~1-5 epochs
+        - Step 5: Refine grid, train longer
+        - Step 6: Look at learning curves
+        - GOTO step 5
+    - Hyperparameters to play with (like a DJ)
+      - Network architecture
+      - Learning rate, its decay schedule, update type
+      - Regularization (L2/Dropout strength)
+    - Track ratio of weight update / weight magnitude
+- After Training
+  - Model Ensembles
+    - Steps
+      - Train multiple independent models
+      - At test time average their results
+    - Tips and Tricks
+  - Transfer Learning
+    - Steps
+    - Guidelines
+  - Distributed Training
+    - Typical way: Copy Model on each GPU, split data
+    - Large-Batch Training
+      - Tricks
+        - Scale Learning Rates (Linearly)
+        - Learning Rate Warmup
