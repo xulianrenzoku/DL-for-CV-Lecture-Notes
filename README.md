@@ -324,3 +324,47 @@ Instructor: Justin Johnson
 - Multi-layer RNN
 - Other RNN Variants
   - Gated Recurrent Unit (GRU)
+
+
+**Lecture 13: [Attention](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L13_Attention.md)** 
+- Attention
+  - Architecture
+    - Sequence-to-Sequence with RNNs
+    - Sequence-to-Sequence with RNNs and Attention
+      - Steps
+        - Alignment scores & alignment weights
+        - Context vector
+- (Generalized) Self-Attention
+  - Changes
+    - Use dot product for similarity
+    - Multiple query vectors
+    - Separate key and value
+  - Self-Attention Layer
+    - Permutation Equivariant
+    - Works on sets of vectors
+  - Masked Self-Attention Layer
+  - Multihead Self-Attention Layer
+  - Example: CNN with Self-Attention
+- Transformer
+  - Three Ways of Processing Sequences
+    - Reccurent Neural Networks
+      - Works on Ordered Sequences
+        - Good at long sequences
+        - Not parallelizable
+    - 1D Convolution
+      - Works on Multidimensional Grids
+        - Bad at long sequences
+        - Highly parallel
+    - Self-Attention
+      - Works on Sets of Vectors
+        - Good at long sequences
+        - Highly parallel
+        - Very memory intensive
+  - The Transformer: Only uses attention
+    - Steps
+    - Transformer Block
+    - Transformer: A Transformer is a sequence of transformer blocks
+    - Transfer Learning
+      - Pretraining
+      - Finetuning
+      
