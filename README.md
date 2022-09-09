@@ -292,7 +292,7 @@ Instructor: Justin Johnson
 
 
 **Lecture 12: [Recurrent Neural Networks](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L12_Recurrent_Neural_Networks.md)** 
-- Definition**
+- Definition
   - Recurrent Neural Networks: Process Sequences
     - One-to-many
       - e.g. Image captioning (Image —> Sequence of words)
