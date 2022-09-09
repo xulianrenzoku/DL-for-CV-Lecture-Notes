@@ -289,3 +289,38 @@ Instructor: Justin Johnson
       - Tricks
         - Scale Learning Rates (Linearly)
         - Learning Rate Warmup
+
+
+**Lecture 12: [Recurrent Neural Networks](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L12_Recurrent_Neural_Networks.md)** 
+- Definition**
+  - Recurrent Neural Networks: Process Sequences
+    - One-to-many
+      - e.g. Image captioning (Image —> Sequence of words)
+    - Many-to-one
+      - e.g. Video classification (Sequence of images —> label)
+    - Many-to-many
+      - e.g. Machine translation (Sequence of words —> sequence of words)
+      - e.g. Per-frame video classification (Sequence of images —> Sequence of labels)
+  - Key idea
+    - RNNs have an “internal state” that is updated as a sequence is processed
+    - We can process a sequence of vectors x by applying a recurrence formula at every time step
+- (Vanilla) RNN
+  - Concept
+    - tanh
+  - Computational Graph
+    - Many-to-many
+    - Many-to-one
+    - One-to-many
+    - seq2seq (many-to-one + one-to-many)
+  - Backpropagation Through Time
+    - Problem
+  - Truncated Backpropagation Through Time
+    - Steps
+  - Gradient Flow
+- Long Short Term Memory (LSTM)
+  - Intuition: cell state & hidden state
+  - Architecture: input gate(i), forget gate(f), output gate(o), gate gate(g)
+  - Gradient Flow: Uninterrupted
+- Multi-layer RNN
+- Other RNN Variants
+  - Gated Recurrent Unit (GRU)
