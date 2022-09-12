@@ -76,8 +76,8 @@ Lecture 14: Visualizing and Understanding
 
 **Fun**
 - DeepDream: Amplify Existing Features
-    - Slide 14-40
-    <img src='static/14-40.png' width='600'> 
+    - Slide 14-41
+    <img src='static/14-41.png' width='600'> 
     
     - Slide 14-45: Code
     <img src='static/14-45.png' width='600'> 
