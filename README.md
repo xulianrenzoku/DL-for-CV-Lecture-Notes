@@ -369,7 +369,7 @@ Instructor: Justin Johnson
       - Finetuning
       
 
-**Lecture 14: [Visualizing and Understanding](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L14_isualizing_and_Understanding.md)**  
+**Lecture 14: [Visualizing and Understanding](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L14_Visualizing_and_Understanding.md)**  
 - Activations
   - First Layers
   - Higher layers
