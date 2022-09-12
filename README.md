@@ -368,3 +368,27 @@ Instructor: Justin Johnson
       - Pretraining
       - Finetuning
       
+
+**Lecture 14: [Visualizing and Understanding](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L14_isualizing_and_Understanding.md)**  
+- Activations
+  - First Layers
+  - Higher layers
+  - Last Layer
+    - Nearest Neighbors
+    - Dimensionality Reduction
+  - Maximally Activating Patches
+  - Saliency via Occlusion
+  - Saliency via Backprop
+- Graidents
+  - Saliency Maps
+  - Intermediate Features via (guided) backprop
+  - Gradient Ascent
+  - Feature Inversion
+- Fun
+  - Deep Dream: Amplify Existing Features
+  - Texture Synthesis
+    - Texture Synthesis w/ Neural Networks: Gram Matrix
+    - Neural Style Transfer: Feature + Gram Reconstruction
+      - Problem: Very slow
+      - Solution: Train another neural network (Fast Neural Style Transfer)
+        - Instance Normalization 
