@@ -392,3 +392,48 @@ Instructor: Justin Johnson
       - Problem: Very slow
       - Solution: Train another neural network (Fast Neural Style Transfer)
         - Instance Normalization 
+
+
+**Lecture 15: [Object Detection](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L15_Object_Detection.md)**  
+- Object Detection
+  - Task Definition
+    - Input: Single RGB Image
+    - Output: A set of detected objects; For each object predict:
+      a. Category label (from fixed, known set of categories)
+      b. Bounding box (four numbers: x, y, width, height)
+  - Challenges
+    - Multiple outputs
+    - Mutiple types of output
+    - Large images
+  - Detecting a single object
+  - Detecting multiple objects
+    - Sliding window
+- R-CNN: Region-Based CNN
+  - Region Proposals
+  - Steps
+  - Comparing Boxes: Intersection over Union (IoU)
+  - Overlapping Boxes: Non-Max Suppression (NMS)
+  - Evaluating Object Detectors: Mean Average Precision (mAP)
+  - Problems with R-CNN: Very slow
+- Fast R-CNN
+  - Steps
+  - Structure
+    - Most of the computation happens in backbone network
+  - Examples (backbone): AlexNet, ResNet
+  - Cropping Features
+    - Rol Pool
+    - Rol Align
+- Faster R-CNN: Learnable Region Proposals
+  - Insert Region Proposal Network (RPN) to predict proposals from features
+  - Region Proposal Network (RPN)
+    - Steps
+    - Challenges
+  - Jointly train with 4 losses
+    a. RPN classification
+    b. RPN regression
+    c. Object classification
+    d. Object regression
+  - Faster R-CNN is a Two-stage object detector
+  - Single-Stage Object Detection
+    - RPN: Classify each anchor as object / not object
+    - Single-Stage Detector: Classify each object as one of C categories (or background)
