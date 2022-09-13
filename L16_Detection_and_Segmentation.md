@@ -106,7 +106,7 @@ Lecture 16: Detection and Segmentation
                 - 1D Example: Slide 16-60
                 <img src='static/16-60.png' width='600'> 
 
-**Instance Segmentation*
+**Instance Segmentation**
 - Things and Stuff
     - Things: Object categories that can be separated into object instances (e.g. cats, cars, person)
     - Stuff: Object categories that cannot be separated into instances (e.g. sky, grass, water, trees)
