@@ -192,7 +192,7 @@ Lecture 15: Object Detection
     
 - How to crop features?
 - Cropping Features
-    - Rol Pool
+    - RoI Pool
         - Project proposal onto features: Slide 15-74
         <img src='static/15-74.png' width='600'> 
         
