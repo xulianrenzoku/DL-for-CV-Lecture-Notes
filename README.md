@@ -437,3 +437,36 @@ Instructor: Justin Johnson
   - Single-Stage Object Detection
     - RPN: Classify each anchor as object / not object
     - Single-Stage Detector: Classify each object as one of C categories (or background)
+
+
+**Lecture 16: [Detection and Segmentation](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L16_Detection_and_Segmentation.md)**  
+- Object Detection Recap
+  - Slow R-CNN Training
+  - Fast R-CNN
+  - Faster R-CNN
+  - Cropping Features
+    - RoI Pool
+    - RoI Align
+  - Detection without anchors
+- Semantic Segmentation
+  - Definition of Task
+  - Fully Convolutional Network
+    - Problem
+    - Solution: Design network as a bunch of convolutional layers, with downsampling and upsampling inside the network
+    - In-Network Upsampling
+      - No learnable parameter
+        - "Unpooling"
+        - Bilinear Interpolation
+        - Bicubic Interpolation
+        - Max Unpooling
+      - Learnable parameter
+        - Transposed Convolution
+- Instance Segmentation
+  - Things and Stuff
+    - Things: Object categories that can be separated into object instances (e.g. cats, cars, person)
+    - Stuff: Object categories that cannot be separated into instances (e.g. sky, grass, water, trees)
+  - Instance Segmentation
+    - Detects all objects in the image, and identify the pixels that belong to each object (Only things!)
+    - Approach: Perform object detection, then predict a segmentation mask for each object
+  - Mask R-CNN
+  - Beyond Instance Segmentation
