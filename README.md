@@ -421,8 +421,8 @@ Instructor: Justin Johnson
     - Most of the computation happens in backbone network
   - Examples (backbone): AlexNet, ResNet
   - Cropping Features
-    - Rol Pool
-    - Rol Align
+    - RoI Pool
+    - RoI Align
 - Faster R-CNN: Learnable Region Proposals
   - Insert Region Proposal Network (RPN) to predict proposals from features
   - Region Proposal Network (RPN)
