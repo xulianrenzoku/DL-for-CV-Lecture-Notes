@@ -124,7 +124,7 @@ Lecture 17: 3D Vision
         <img src='static/17-43.png' width='600'>
         
         - Slide 17-44
-            - Can attach data on verts and interpolate over the whole surface: RGB colors, texture coordinates, normal vectors, etc
+            - Good: Can attach data on verts and interpolate over the whole surface: RGB colors, texture coordinates, normal vectors, etc
         <img src='static/17-44.png' width='600'>
         
     - Predicting Triangle Meshes: Pixel2Mesh: Slide 17-47
