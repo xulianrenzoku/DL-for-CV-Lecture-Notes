@@ -470,3 +470,51 @@ Instructor: Justin Johnson
     - Approach: Perform object detection, then predict a segmentation mask for each object
   - Mask R-CNN
   - Beyond Instance Segmentation
+
+
+**Lecture 17: [3D Vision](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L17_3D_Vision.md)**
+- 3D Shape Representations
+  - Overview
+    - Depth Map
+    - Voxel Grid
+    - Implicit Surface
+    - Pointcloud
+    - Mesh
+  - Depth Map
+    - Depth Map
+      - Predicting Depth Maps
+      - Problem: Scale/Depth Ambiguity
+    - Surface Normals
+  - Voxel Grid
+    - Definition: Good & Bad
+    - Processing Voxel Inputs: 3D Convolution
+    - Generating Voxel Shapes:
+      - 3D Convolution
+      - "Voxel Tubes": Voxel-2 representation
+    - Problems: Memory Usage
+    - Scaling Voxels
+      - Oct-Trees
+      - Nested Shape Layers
+  - Implicit Surface
+    - 3D shape Representations: Implicit Functions
+  - Pointcloud
+    - Definition: Good & Bad
+    - Processing Pointcloud Inputs: PointNet
+    - Generating Pointcloud Outputs
+  - Mesh
+    - Definition: Good
+    - Predicting Triangle Meshes
+      - Iterative Refinement
+      - Graph Convolution
+      - Vertex Aligned-Features
+      - Chamfer Loss Function
+- 3D Metrics
+  - Intersection over Union
+  - Chamfer Distance
+  - F1 Score
+- 3D Camera Systems
+  - Canonical vs View Coordinates
+  - View-Centric Voxel Predictions
+- 3D Datasets
+  - ShapeNet
+  - Pix3D   
