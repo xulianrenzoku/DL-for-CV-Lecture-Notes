@@ -518,3 +518,8 @@ Instructor: Justin Johnson
 - 3D Datasets
   - ShapeNet
   - Pix3D   
+- 3D Shape Prediction
+  - Mesh R-CNN
+    - Hypbrid 3D shape representation  
+    - Pipeline
+    - Shape Regularizers
