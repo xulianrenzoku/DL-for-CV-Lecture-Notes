@@ -19,7 +19,7 @@ Lecture 16: Detection and Segmentation
         - JJ: Regression loss only for positive regional proposal
     <img src='static/16-12.png' width='600'> 
     
-- Fast CNN
+- Fast R-CNN
     - Slide 16-13: Crop features for each region, use them to predict class and box targets per region
     <img src='static/16-13.png' width='600'> 
 - Faster R-CNN
