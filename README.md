@@ -523,3 +523,37 @@ Instructor: Justin Johnson
     - Hypbrid 3D shape representation  
     - Pipeline
     - Shape Regularizers
+
+
+**Lecture 18: [Videos](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L18_Videos.md)**
+- Overview
+  - Video = 2D+Time
+  - Problem: Videos are big
+  - Train on Clips: Train model to classify short clips with low FPS
+- Video Classification Models
+  - Single-Frame CNN
+  - Late Fusion
+    - with FC layers
+    - with pooling
+  - Early Fusion
+  - 3D CNN
+  - C3D
+  - Two-stream Networks
+    - Recognizing actions from motion
+    - Measuring motion: optical flow
+    - Architecture
+      - Spatial stream ConvNet
+      - Temporal stream ConvNet
+        - Input: Stack of optical flow
+  - CNN + RNN
+  - Recurrent Convolutional Network
+  - Spatio-Temporal Self-Attention (Nonlocal Block)
+    - Inflating 2D Networks to 3D
+      - Inception block
+  - Treating time and space differently: SlowFast Networks
+    - Architecture
+      - Slow
+      - Fast
+- Other Studies
+  - Temporal Action Localization
+  - Spatio-Temporal Detection
