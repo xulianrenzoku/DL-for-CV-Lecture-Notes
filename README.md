@@ -557,3 +557,29 @@ Instructor: Justin Johnson
 - Other Studies
   - Temporal Action Localization
   - Spatio-Temporal Detection
+
+
+**Lecture 19: [Generative Models I](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L19_Generative_Models_I.md)**
+- Overview
+  - Supervised vs Unsupervised Learning
+  - Discriminative vs Generative Models
+    - Discriminative Model: Learn a probability distribution p(y|x) 
+    - Generative Model: Learn a probability distribution p(x)
+    - Conditional Generative Model: Learn p(x|y)
+    - Recall Baye's Rule
+  - Taxonomy of Generative Models
+- Autoregressive Models
+  - Explicit Density Estimation
+  - PixelRNN
+  - PixelCNN
+  - Pros & Cons
+- Variational Autoencoders
+  - Intuition
+    - VAE define an intractable density that we cannot explicitly compute or optimize
+    - But we will be able to directly optimize a lower bound on the density
+  - Term "Autoencoders"
+    - (Regular, non-variational) Autoencoders
+  - Term "Variational": Probabilistic spin on autoencoders
+  - Structure
+    - Idea: Jointly train both encoder and decoder
+    - Math (where "lower bound" comes from)   
