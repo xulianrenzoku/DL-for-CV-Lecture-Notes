@@ -583,3 +583,18 @@ Instructor: Justin Johnson
   - Structure
     - Idea: Jointly train both encoder and decoder
     - Math (where "lower bound" comes from)   
+
+**Lecture 20: [Generative Models II](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L20_Generative_Models_II.md)**
+- Generative Adversarial Networks
+- Idea
+  - Setup: Assume we have data x_i drawn from distribution p_data(x). Want to sample from p_data
+  - Intuition: Jointly train G and D. Hopefully p_G converges to p_data
+- Training Objective: Jointly train generator and discriminator D with a minimax game
+- Optimality
+- Interpolation
+- Vector Math
+- GAN Improvements
+  - Improved Loss Functions
+  - Higher Resolution
+- Conditional GANs
+  - Conditional Batch Normalization
