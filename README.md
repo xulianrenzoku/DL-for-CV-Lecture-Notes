@@ -631,3 +631,15 @@ Instructor: Justin Johnson
   - Inverse Reinforcement Learning
   - Adversarial Learning
 - Stochastic Computation Graphs
+
+
+**Lecture 21: [Conclusion](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L22_Conclusion.md/)**
+- Predictions
+  - New deep learning models
+  - New applications
+  - More compute, new hardware
+- Problems 
+  - Models are biased
+  - Need new theory
+  - Using less data
+  - Understanding the world
