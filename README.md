@@ -584,6 +584,7 @@ Instructor: Justin Johnson
     - Idea: Jointly train both encoder and decoder
     - Math (where "lower bound" comes from)   
 
+
 **Lecture 20: [Generative Models II](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L20_Generative_Models_II.md)**
 - Generative Adversarial Networks
 - Idea
@@ -598,3 +599,35 @@ Instructor: Justin Johnson
   - Higher Resolution
 - Conditional GANs
   - Conditional Batch Normalization
+
+
+**Lecture 21: [Reinforcement Learning](https://github.com/xulianrenzoku/DL-for-CV-Lecture-Notes/blob/main/L21_Reinforcement_Learning.md/)**
+- Definition
+  - Problems where an agent performs actions in environment, and receives rewards
+  - Goal: Learn how to take actions that maximize reward
+- Examples
+  - Cart-Pole Problem
+  - Robot Locomotion
+  - Atari Games
+  - Go
+- Why is RL different from normal supervised learning?
+  - Stochasticity
+  - Credit assignment
+  - Nondifferentiable
+  - Nonstationary
+- Markov Decision Process
+- Find optimal policies
+- Value Function and Q Function
+- Bellman Equation
+- Solving for the optimal policy
+  - Value Iteration
+  - Deep Q-Learning
+- Q-Learning
+- Policy Grdients
+- Other approaches: Model Based RL
+  - Actor-Critic
+  - Model-Based
+  - Imitation Learnin
+  - Inverse Reinforcement Learning
+  - Adversarial Learning
+- Stochastic Computation Graphs
